@@ -1,0 +1,145 @@
+/* hulu nav styling */
+.nav2 {
+    width: 100%;
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+}
+
+.nav2 div:nth-child(1) img {
+    width: 5rem;
+}
+
+.nav2 div:nth-child(2) {
+    /* border: 2px solid red; */
+    display: flex;
+
+}
+
+.nav2 div:nth-child(2) .login {
+    display: block;
+    padding: 10px 10px;
+    color: rgb(163, 169, 183);
+    font-weight: 600;
+    font-size: 1rem;
+    position: relative;
+    text-decoration: none;
+}
+
+.nav2 .login:hover {
+    color: white;
+    background-color: rgb(67, 70, 75);
+    border-radius: 5px;
+
+}
+
+.nav2 div .burga1 {
+    display: none;
+}
+/* .toggle-nav {
+	display:none;
+} */
+.toggle-nav {
+    padding:0 10px;
+    /* float:left; */
+    display:inline-block;
+    box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+    border-radius:3px;
+    background:#0c42c0;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+    color:#777;
+    font-size:30px;
+    transition:color linear 0.15s;
+}
+
+.toggle-nav:hover, .toggle-nav.active {
+    text-decoration:none;
+    color:#66a992;
+}
+
+
+@media screen and (max-width:1020px) {
+    .nav2 div:nth-child(2) .login {
+        display: none
+    }
+
+    .nav2 div .burga1 {
+        display: block;
+        padding: 5px 5px;
+
+    }
+
+    /* .nav2 div .burga1:hover {
+        color: white;
+        background-color: rgb(67, 70, 75);
+        ;
+        border-radius: 5px;
+    }
+
+    .middiv .box1 img {
+        width: 10rem;
+    }
+
+    .middiv .box2 img {
+        width: 12rem;
+    }
+    .sport__wrapper{
+        background-image: url('./images/robotic-img-2.jpg');
+    }
+    .sport__content{
+     height: 800px;
+     margin-top: 2rem;
+     width: 100%;
+    }
+
+    .sport__details h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .middiv3{
+        width: 100%;
+    }
+    .middiv3 .Select_plan h2{
+        font-size: 2rem;
+    }
+    .box12{
+        gap: 0;
+    }
+    .box14{
+        background-color: rgb(11,12,15) !important;
+    }
+    .base_plan{
+        width: 100%;
+        border-bottom: 1px solid gray;
+        padding-block: 1rem;
+    }
+    .free_trial_with_adds{
+        width: 100%;
+    }
+
+    .with__adds{
+        flex:  0 0 50%;
+        border-right: 1px solid gray;
+        background-color: rgb(11,12,15) !important;
+    }
+    .free_trial_no_adds{
+        flex:  0 0 42%;
+        /* border: 2px solid green; */
+    /* }
+
+    .footer__browse .footer__list{
+        justify-content: space-between;
+    }
+    .footer__list ul:nth-child(4) li{
+        width: 12rem;
+    } */ 
+
+}
+
+
+
+
+
+
+
